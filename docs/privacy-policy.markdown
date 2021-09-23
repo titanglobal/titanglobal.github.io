@@ -6,8 +6,6 @@ permalink: /privacy-policy/
 
 Titan Global and Services Co., Ltd. Privacy Policy
 
-Last modified: June 26, 2021
-
 We at Titan Global have created this Privacy Policy to describe how information is collected, used, and disclosed when you visit or use a Titan Global Offering. By accessing and/or using this Titan Global website or any Titan Global Offering, you are accepting the practices described in this Privacy Policy. If you reside in the European Union the SECTION FOR USERS RESIDING IN THE EUROPEAN UNION applies to you and has specific rules on consent and details of our EU representative, as required by European Union data protection requirements.
 
 You must be at least thirteen (13) years of age, or sixteen (16) years of age if you are located in the European Union, to access or use most Titan Global Offerings.  You must be at least eighteen (18) years of age to access or use Titan Global Offerings involving social casino-style game play. If you are younger than eighteen (18) (or the age of legal majority where you live): (1) you may not access or use Restricted Offerings, and (2) you may use the Titan Global Offerings (other than Restricted Offerings) only under the supervision of a parent or legal guardian who agrees to be bound by these Terms of Use. If you are a parent or legal guardian of a user under the age of eighteen (18), you agree to be fully responsible for the acts or omissions of such user in relation to any Titan Global Offering. For additional policies pertaining to children, please see the section on CHILDREN below.
