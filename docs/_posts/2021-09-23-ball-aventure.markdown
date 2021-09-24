@@ -2,7 +2,7 @@
 layout: post
 title:  "Ball Aventure"
 date:   2021-08-15 13:49:51 +0700
-link: "market://details?id==com.titan.red.bounce.ball"
+link: "https://play.google.com/store/apps/details?id=com.titan.red.bounce.ball"
 image: "https://play-lh.googleusercontent.com/CaoKWJptz_16PDY8bFur6E4IFQUH1j-1IV5eRKohyMvAsHhD0UjI8Sa7rjC2Qt0KoQ=w1440-h620-rw"
 categories: game
 ---
