@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Turbo Bike: Extreme Racing"
-date:   2021-8-12 13:49:51 +0700
+date:   2021-08-12 13:49:51 +0700
 link: "https://play.google.com/store/apps/details?id=com.titan.BikeRacing3.moto"
 image: "https://play-lh.googleusercontent.com/FSDYglGB50w6wfvPbiWv5gTLBMCXwdOI_6NIISBIZ4Ir8WmqCxr05bmx6Xi8_cAxCLM=w720-h310-rw"
 categories: game
