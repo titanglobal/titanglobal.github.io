@@ -550,3 +550,4 @@ smartadserver.com, 1692, RESELLER
 
 indexexchange.com, 198417, RESELLER, 50b1c356f2c5c8fc
 facebook.com, 967911263750156, DIRECT, c3e20eee3f780d68
+facebook.com, 967911263750156, DIRECT, c3e20eee3f780d68
