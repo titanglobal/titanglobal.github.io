@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bruno's World 2"
-date:   2021-12-12 13:49:51 +0700
+date:   2022-08-18 13:49:51 +0700
 link: "https://play.google.com/store/apps/details?id=com.titan.bruno2.adventure.world"
 image: "https://play-lh.googleusercontent.com/ljwq5NsTGyhqwjyB0JNk34Itw2DD9bmM0p2pzX00obmHv9_dMt1YCAYuH-lA7bDx7aPr=w1440-h620-rw"
 categories: game
