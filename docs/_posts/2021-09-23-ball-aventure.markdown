@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Ball Aventure"
+title:  "Brawl Master: Animal Showdown"
 date:   2021-08-15 13:49:51 +0700
-link: "https://play.google.com/store/apps/details?id=com.titan.red.bounce.ball"
-image: "https://play-lh.googleusercontent.com/CaoKWJptz_16PDY8bFur6E4IFQUH1j-1IV5eRKohyMvAsHhD0UjI8Sa7rjC2Qt0KoQ=w1440-h620-rw"
+link: "https://play.google.com/store/apps/details?id=com.titan.animal.showdown"
+image: "https://play-lh.googleusercontent.com/SnVF50p4v-pQVJl1JgdfD6UTvlISJrL8PBqVl3JwLk3SUpW7f7siXTPXgUrBKPY34Gs=w5120-h2880-rw"
 categories: game
 ---
 
