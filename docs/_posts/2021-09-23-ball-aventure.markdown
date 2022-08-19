@@ -7,6 +7,4 @@ image: "https://play-lh.googleusercontent.com/SnVF50p4v-pQVJl1JgdfD6UTvlISJrL8PB
 categories: game
 ---
 
-Red Bounce Ball Heroes is one of the most interesting bouncing ball games. With the simple control and challenging adventures, Red bounce ball has been beautifully designed for players with all age groups.
-Roll, jump, and bounce the roller ball through a mechanical wasteland, the player needs to ensure that the moving ball does not hit the square
-shapes and Circles.
+🐾 Brawl master: animal showdown – the best among casual games. The time to show off your casual game skills has come!
