@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Stickman Craft Fight"
-date:   2021-11-12 13:49:51 +0700
+date:   2022-08-19 13:49:51 +0700
 link: "https://play.google.com/store/apps/details?id=com.titan.stickman.craft.fight.adventure"
 image: "https://play-lh.googleusercontent.com/3veqW782lCU9eUCsxpQfTVZ50WOucrhbGBCeiyNZ6akVYPWayavoh0U3uzr3hOouK2c=w1440-h620-rw"
 categories: game
