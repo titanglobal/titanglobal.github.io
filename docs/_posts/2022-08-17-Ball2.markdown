@@ -2,8 +2,8 @@
 layout: post
 title:  "Ball Adventure - Ball Bounce"
 date:   2022-08-17 13:49:51 +0700
-link: "https://play.google.com/store/apps/details?id=com.titan.stickmantrigger"
-image: "https://play-lh.googleusercontent.com/EDOMgL5wPAvFuW6VcEOrmz1VnraBGyfmne0jbK-JcROe-wxyA6elbcigtAPZYeSZQlw=w1440-h620-rw"
+link: "https://play.google.com/store/apps/details?id=com.titan.bounce.ball.adventure"
+image: "https://play-lh.googleusercontent.com/oD-GWz0VLYM7GsU9famj1oBTApEpR2xBMUB4kBCSVxnVbQj3gLLFgzQn5D05J2isDg=w1440-h620-rw"
 categories: game
 ---
 Are you a crazy fan of the Ball adventure series?
