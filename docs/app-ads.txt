@@ -1072,3 +1072,5 @@ inmobi.com, 190e577c9d9145cca721d4da0cf21641, DIRECT, 83e75a7ae333ca9dengagebdr.
 
 gamob.com, pub-5266002955, DIRECT 
 google.com, pub-5882656183054581, DIRECT, f08c47fec0942fa0
+gamob.com, pub-5266002955, DIRECT 
+ google.com, pub-5882656183054581, DIRECT, f08c47fec0942fa0
