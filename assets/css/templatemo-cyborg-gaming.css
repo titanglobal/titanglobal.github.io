@@ -807,7 +807,7 @@ Most Popular Style
 
 .most-popular {
   margin-top: 60px;
-  padding: 30px;
+  padding: 15px;
   background-color: #1f2122;
   border-radius: 23px;
 }
@@ -965,7 +965,7 @@ Featured Games Style
 .featured-games {
   border-radius: 23px;
   background-color: #1f2122;
-  padding: 30px;
+  padding: 10px;
 }
 
 .featured-games .item .thumb {
@@ -1069,7 +1069,7 @@ Featured Games Style
 .top-downloaded {
   border-radius: 23px;
   background-color: #1f2122;
-  padding: 30px;
+  padding: 10px;
   max-height: 567px;
   min-height: 567px;
 }
@@ -1643,7 +1643,7 @@ body {
 
 @media (max-width: 767px) {
   body .page-content {
-    padding: 0px 30px;
+    padding: 0px 15px;
   }
   .main-banner {
     text-align: center;
