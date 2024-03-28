@@ -445,23 +445,6 @@
 		}
 	} ];
 
-	function displayFeaturedGames(id, games){
-		for (var prop in games) {
-			document.getElementById(id).innerHTML += '<div class="item">\n' +
-				'<div class="thumb">\n' +
-				'<img src="' + games[prop].image + '" alt="">\n' +
-				'<div class="hover-effect">\n' +
-				'<h6>Play Now</h6>\n' +
-				'</div>\n' +
-				'</div>\n' +
-				'<h4>' + games[prop].name + '<br><span>' + games[prop].download + ' Downloads</span></h4>\n' +
-				'<ul>\n' +
-				'<li><i class="fa fa-star"></i> ' + games[prop].star + '</li>\n' +
-				'<li><i class="fa fa-download"></i> ' + games[prop].download + '+</li>\n' +
-				'</ul>\n' +
-				'</div>'
-		}
-	}
 
 	/**
 	 * Create the stage DOM element
@@ -475,9 +458,6 @@
 		}
 
 		this.$element.addClass(this.options.loadingClass);
-
-		displayFeaturedGames('featured', featuredGames)
-		displayFeaturedGames('featured', featuredGames)
 
 		// create stage
 		this.$stage = $('<' + this.settings.stageElement + '>', {
@@ -3467,34 +3447,3 @@
 	}
 
 })(window.Zepto || window.jQuery, window, document);
-
-
-/* TODO: Update content here
-*   Featured Games */
-var featuredGames = {
-	blockjewel: {
-		name: 'Block Jewel',
-		genre: 'Casual',
-		image: 'https://play-lh.googleusercontent.com/fk0zRnYJUNOMkj-PZV3hNi7x3xLKFoL7cWbPhxqKWj9TI2g6YWoCv_iiaEMuws5Ubfw=w2560-h1440-rw',
-		download: '10k',
-		star: 4.5,
-		link: 'https://play.google.com/store/apps/details?id=com.no1.blockgemm.puzzle'
-	}
-	,matchfamily: {
-		name: 'Match Family',
-		genre: 'Casual',
-		image: 'https://play-lh.googleusercontent.com/mvlv94wuf0i2dgWOzuOsoZclZWJ3NBGRJRY9EE9U-qx9MXswA4KhgSQgdVDJcm8usw=w2560-h1440-rw',
-		download: '500',
-		star: 5,
-		link: 'https://play.google.com/store/apps/details?id=com.no1ornothing.match3d.family'
-	}
-	,blocksmash: {
-		name: 'Block Smash',
-		genre: 'Casual',
-		image: 'https://play-lh.googleusercontent.com/HrK5EdxsAO8JQpe1I8eXHHaRNvf-HUmtCa1HwYc2mtio6HFkZiRCvqA1KUD94lDcifBq=w2560-h1440-rw',
-		download: '10m',
-		star: 4.5,
-		link: 'https://play.google.com/store/apps/details?id=com.miracle.block.smash.journey'
-	},
-}
-/* End: Content */
