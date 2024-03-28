@@ -98,7 +98,7 @@ function displayFeaturedGames(id, games){
             '<div class="thumb">\n' +
             '<img src="' + games[prop].image + '" alt="">\n' +
             '<div class="hover-effect">\n' +
-            '<h6>Play Now</h6>\n' +
+            '<h6><a href="' + games[prop].link + '">Play Now</h6>\n' +
             '</div>\n' +
             '</div>\n' +
             '<h4>' + games[prop].name + '<br><span>' + games[prop].download + ' Downloads</span></h4>\n' +
@@ -136,7 +136,7 @@ displayPopularGames('demo', popularGames)
 function displayTopDownloaded(id, games){
 	for (var prop in games) {
 		document.getElementById(id).innerHTML += '<li>\n' +
-			'<img src="' + games[prop].image + '" alt="" class="templatemo-item">\n' +
+			'<a href="' + games[prop].link + '"><img src="' + games[prop].image + '" alt="" class="templatemo-item"></a>\n' +
 			'<h4>' + games[prop].name + '</h4>\n' +
 			'<h6>' + games[prop].genre + '</h6>\n' +
 			'<span><i class="fa fa-star" style="color: yellow;"></i> 4.5</span>\n' +
