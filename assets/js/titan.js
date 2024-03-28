@@ -1,5 +1,5 @@
 /* TODO: Update content here */
-/*   Featured Games */
+/* Featured Games */
 var featuredGames = {
 	blockjewel: {
 		name: 'Block Jewel',
@@ -90,24 +90,62 @@ var popularGames = {
 		link: 'https://play.google.com/store/apps/details?id=com.no1ornothing.color.water.sort.woody.puzzle'
 	},
 }
+
+/* Contact */
+var links={
+	facebook: {
+		name: "Facebook",
+		link: "https://www.facebook.com/titanglobal1"
+	},
+	playstore: {
+		name: "PlayStore",
+		link: "https://play.google.com/store/apps/dev?id=6658909980115320355"
+	}
+}
+var mail = "dtson.0905@gmail.com"
+
 /* End: Content */
 
+function displayLinks(id){
+	var content = document.getElementById(id)
+	if(content != null){
+		for (var link in links){
+			content.innerHTML += '<p class="links">' + links[link].name + ': <a href="' + links[link].link + '">' + links[link].link + '</a></p>'
+		}
+	}
+}
+
+displayLinks('links')
+
+function displayMail(id){
+	var content = document.getElementById(id)
+	if(content!=null){
+		content.innerHTML += '<p>Copyright © 2021 <a href="#">CÔNG TY CỔ PHẦN TITAN GLOBAL</a> Company. All rights reserved.\n' +
+		'<br>Mail: <a href=mailto:"'+ mail+ '" target="_blank" title="free CSS templates">'+ mail+ '</a></p>'
+	}
+}
+
+displayMail("footer-content")
+
 function displayFeaturedGames(id, games){
-    for (var prop in games) {
-        document.getElementById(id).innerHTML += '<div class="item">\n' +
-            '<div class="thumb">\n' +
-            '<img src="' + games[prop].image + '" alt="">\n' +
-            '<div class="hover-effect">\n' +
-            '<h6><a href="' + games[prop].link + '">Play Now</h6>\n' +
-            '</div>\n' +
-            '</div>\n' +
-            '<h4>' + games[prop].name + '<br><span>' + games[prop].download + ' Downloads</span></h4>\n' +
-            '<ul>\n' +
-            '<li><i class="fa fa-star"></i> ' + games[prop].star + '</li>\n' +
-            '<li><i class="fa fa-download"></i> ' + games[prop].download + '+</li>\n' +
-            '</ul>\n' +
-            '</div>'
-    }
+	var content = document.getElementById(id)
+	if(content != null){
+		for (var prop in games) {
+			content.innerHTML += '<div class="item">\n' +
+				'<div class="thumb">\n' +
+				'<img src="' + games[prop].image + '" alt="">\n' +
+				'<div class="hover-effect">\n' +
+				'<h6><a href="' + games[prop].link + '">Play Now</h6>\n' +
+				'</div>\n' +
+				'</div>\n' +
+				'<h4>' + games[prop].name + '<br><span>' + games[prop].download + ' Downloads</span></h4>\n' +
+				'<ul>\n' +
+				'<li><i class="fa fa-star"></i> ' + games[prop].star + '</li>\n' +
+				'<li><i class="fa fa-download"></i> ' + games[prop].download + '+</li>\n' +
+				'</ul>\n' +
+				'</div>'
+		}
+	}
 }
 
 displayFeaturedGames('featured', featuredGames)
@@ -116,35 +154,41 @@ displayFeaturedGames('featured', featuredGames)
 
 // Display game list
 function displayPopularGames(id, games) {
-  for (var prop in games) {
-    document.getElementById(id).innerHTML += '<div class="col-lg-3 col-sm-6">\n' +
-        '<div class="item">\n' +
-        '<a href="' + games[prop].link + '"><img src="' + games[prop].image + '" alt=""></a>\n' +
-        '<h4>' + games[prop].name + '<br><span>' + games[prop].genre + '</span></h4>\n' +
-        '<ul>\n' +
-        '<li><i class="fa fa-star"></i>'+ games[prop].star + '</li>\n' +
-        '<li><i class="fa fa-download"></i>' + games[prop].download + '+</li>\n' +
-        '</ul>\n' +
-        '</div>\n' +
-        '</div>';
-  }
+	var content = document.getElementById(id)
+	if(content != null){
+	  for (var prop in games) {
+		document.getElementById(id).innerHTML += '<div class="col-lg-3 col-sm-6">\n' +
+			'<div class="item">\n' +
+			'<a href="' + games[prop].link + '"><img src="' + games[prop].image + '" alt=""></a>\n' +
+			'<h4>' + games[prop].name + '<br><span>' + games[prop].genre + '</span></h4>\n' +
+			'<ul>\n' +
+			'<li><i class="fa fa-star"></i>'+ games[prop].star + '</li>\n' +
+			'<li><i class="fa fa-download"></i>' + games[prop].download + '+</li>\n' +
+			'</ul>\n' +
+			'</div>\n' +
+			'</div>';
+	  }
+	}
 }
 
 displayPopularGames('demo', popularGames)
 
 // Display top download games
 function displayTopDownloaded(id, games){
-	for (var prop in games) {
-		document.getElementById(id).innerHTML += '<li>\n' +
-			'<a href="' + games[prop].link + '"><img src="' + games[prop].image + '" alt="" class="templatemo-item"></a>\n' +
-			'<h4>' + games[prop].name + '</h4>\n' +
-			'<h6>' + games[prop].genre + '</h6>\n' +
-			'<span><i class="fa fa-star" style="color: yellow;"></i> 4.5</span>\n' +
-			'<span><i class="fa fa-download" style="color: #dc3931;"></i> ' + games[prop].download + '+</span>\n' +
-			'<div class="download">\n' +
-			'<a href="' + games[prop].link + '"><i class="fa fa-download"></i></a>\n' +
-			'</div>\n' +
-			'</li>'
+	var content = document.getElementById(id)
+	if(content != null){
+		for (var prop in games) {
+			document.getElementById(id).innerHTML += '<li>\n' +
+				'<a href="' + games[prop].link + '"><img src="' + games[prop].image + '" alt="" class="templatemo-item"></a>\n' +
+				'<h4>' + games[prop].name + '</h4>\n' +
+				'<h6>' + games[prop].genre + '</h6>\n' +
+				'<span><i class="fa fa-star" style="color: yellow;"></i> 4.5</span>\n' +
+				'<span><i class="fa fa-download" style="color: #dc3931;"></i> ' + games[prop].download + '+</span>\n' +
+				'<div class="download">\n' +
+				'<a href="' + games[prop].link + '"><i class="fa fa-download"></i></a>\n' +
+				'</div>\n' +
+				'</li>'
+		}
 	}
 }
 
