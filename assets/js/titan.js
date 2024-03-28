@@ -119,7 +119,7 @@ function displayPopularGames(id, games) {
   for (var prop in games) {
     document.getElementById(id).innerHTML += '<div class="col-lg-3 col-sm-6">\n' +
         '<div class="item">\n' +
-        '<img src="' + games[prop].image + '" alt="">\n' +
+        '<a href="' + games[prop].link + '"><img src="' + games[prop].image + '" alt=""></a>\n' +
         '<h4>' + games[prop].name + '<br><span>' + games[prop].genre + '</span></h4>\n' +
         '<ul>\n' +
         '<li><i class="fa fa-star"></i>'+ games[prop].star + '</li>\n' +
