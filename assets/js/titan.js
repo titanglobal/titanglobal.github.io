@@ -22,29 +22,22 @@ var featuredGames = {
 /* Top Download Games*/
 var topDownloadGames = {
 	Rollingball: {
-		name: 'Water Sort',
+		name: 'Rolling Ball',
 		genre: 'Casual',
-		image: 'https://play-lh.googleusercontent.com/nxT9TWLCMCmUxzafx-sKGsktGqGW_XNwhH1Cs50jlGr-fR3mMIoBMeH2bH3VOTfvfLsk=s48-rw',
-		download: '10m',
-		star: 4.5,
-		link: 'https://play.google.com/store/apps/details?id=com.no1ornothing.color.water.sort.woody.puzzle'
+		image: 'https://play-lh.googleusercontent.com/Lx8_KsaaErEDeaeK4-SohDcr4Q1wsnEbk6YX3Nk_fG3C4Q1XNB7adq7F_E9YYpo0hvg=w2560-h1440-rw',
+		download: '500k',
+		star: 5,
+		link: 'https://play.google.com/store/apps/details?id=com.no1.rolling.ball3D.sky.race'
 	}
-	,blocksmash: {
-		name: 'Block Smash',
+	,blockjewel: {
+		name: 'Block Jewel',
 		genre: 'Casual',
-		image: 'https://play-lh.googleusercontent.com/hWJJx3I29IV-DYdfF0AegaRISIf5JOlR01Z4WHEXNQ68DQmkd_a9pfuiKOr7bfFElDI=s48-rw',
-		download: '5m',
+		image: 'https://play-lh.googleusercontent.com/fk0zRnYJUNOMkj-PZV3hNi7x3xLKFoL7cWbPhxqKWj9TI2g6YWoCv_iiaEMuws5Ubfw=w2560-h1440-rw',
+		download: '10k',
 		star: 4.5,
-		link: 'https://play.google.com/store/apps/details?id=com.miracle.block.smash.journey'
+		link: 'https://play.google.com/store/apps/details?id=com.no1.blockgemm.puzzle'
 	}
-	,ballsort: {
-		name: 'Color Sort',
-		genre: 'Casual',
-		image: 'https://play-lh.googleusercontent.com/3ZZKUMmh2WY9Vi8G_X4Mxs40fYl8BU9iOdKxYJEbSxu0OPwSsorwP8mpB1brgjbt45oQ=s48-rw',
-		download: '5m',
-		star: 4.5,
-		link: 'https://play.google.com/store/apps/details?id=com.titan.ball.sort.woody.puzzle'
-	},
+	,
 }
 
 /* Popular games */
