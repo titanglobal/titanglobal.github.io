@@ -9,27 +9,19 @@ var featuredGames = {
 		star: 4.5,
 		link: 'https://play.google.com/store/apps/details?id=com.no1.blockgemm.puzzle'
 	}
-	,matchfamily: {
-		name: 'Match Family',
+	,Rollingball: {
+		name: 'Rolling Ball',
 		genre: 'Casual',
-		image: 'https://play-lh.googleusercontent.com/mvlv94wuf0i2dgWOzuOsoZclZWJ3NBGRJRY9EE9U-qx9MXswA4KhgSQgdVDJcm8usw=w2560-h1440-rw',
-		download: '500',
+		image: 'https://play-lh.googleusercontent.com/Lx8_KsaaErEDeaeK4-SohDcr4Q1wsnEbk6YX3Nk_fG3C4Q1XNB7adq7F_E9YYpo0hvg=w2560-h1440-rw',
+		download: '500k',
 		star: 5,
-		link: 'https://play.google.com/store/apps/details?id=com.no1ornothing.match3d.family'
+		link: 'https://play.google.com/store/apps/details?id=com.no1.rolling.ball3D.sky.race'
 	}
-	,blocksmash: {
-		name: 'Block Smash',
-		genre: 'Casual',
-		image: 'https://play-lh.googleusercontent.com/HrK5EdxsAO8JQpe1I8eXHHaRNvf-HUmtCa1HwYc2mtio6HFkZiRCvqA1KUD94lDcifBq=w2560-h1440-rw',
-		download: '10m',
-		star: 4.5,
-		link: 'https://play.google.com/store/apps/details?id=com.miracle.block.smash.journey'
-	},
 }
 
 /* Top Download Games*/
 var topDownloadGames = {
-	watersort: {
+	Rollingball: {
 		name: 'Water Sort',
 		genre: 'Casual',
 		image: 'https://play-lh.googleusercontent.com/nxT9TWLCMCmUxzafx-sKGsktGqGW_XNwhH1Cs50jlGr-fR3mMIoBMeH2bH3VOTfvfLsk=s48-rw',
