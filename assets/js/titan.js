@@ -70,7 +70,7 @@ var links={
 		link: "https://play.google.com/store/apps/dev?id=6658909980115320355"
 	}
 }
-var mail = "lienhe@titanglobal.studio"
+var mail = "xuthetre@gmail.com"
 
 /* End: Content */
 
