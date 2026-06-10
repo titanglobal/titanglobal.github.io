@@ -70,7 +70,7 @@ var links={
 		link: "https://play.google.com/store/apps/dev?id=6658909980115320355"
 	}
 }
-var mail = "xuthetre@gmail.com"
+var mail = "lienhe@titanglobal.studio"
 
 /* End: Content */
 
@@ -88,8 +88,9 @@ displayLinks('links')
 function displayMail(id){
 	var content = document.getElementById(id)
 	if(content!=null){
-		content.innerHTML += '<p>Copyright © 2021 <a href="#">CÔNG TY CỔ PHẦN TITAN GLOBAL</a> Company. All rights reserved.\n' +
-		'<br>Mail: <a href=mailto:"'+ mail+ '" target="_blank" title="free CSS templates">'+ mail+ '</a></p>'
+		var year = new Date().getFullYear()
+		content.innerHTML += '<p>Copyright © ' + year + ' <a href="#">CÔNG TY CỔ PHẦN TITAN GLOBAL</a> Company. All rights reserved.\n' +
+		'<br>Mail: <a href="mailto:'+ mail+ '" target="_blank">'+ mail+ '</a></p>'
 	}
 }
 
@@ -116,7 +117,6 @@ function displayFeaturedGames(id, games){
 	}
 }
 
-displayFeaturedGames('featured', featuredGames)
 displayFeaturedGames('featured', featuredGames)
 
 
@@ -150,7 +150,7 @@ function displayTopDownloaded(id, games){
 				'<a href="' + games[prop].link + '"><img src="' + games[prop].image + '" alt="" class="templatemo-item"></a>\n' +
 				'<h4>' + games[prop].name + '</h4>\n' +
 				'<h6>' + games[prop].genre + '</h6>\n' +
-				'<span><i class="fa fa-star" style="color: yellow;"></i> 4.5</span>\n' +
+				'<span><i class="fa fa-star" style="color: yellow;"></i> ' + games[prop].star + '</span>\n' +
 				'<span><i class="fa fa-download" style="color: #dc3931;"></i> ' + games[prop].download + '+</span>\n' +
 				'<div class="download">\n' +
 				'<a href="' + games[prop].link + '"><i class="fa fa-download"></i></a>\n' +
