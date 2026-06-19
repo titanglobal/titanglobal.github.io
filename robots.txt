@@ -1,0 +1,4 @@
+Sitemap: https://titanglobal-group.com/sitemap.xml
+
+User-agent: *
+Disallow:
